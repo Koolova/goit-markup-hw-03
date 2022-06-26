@@ -1,0 +1,205 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--acsent-color: #2196f3;
+--white-color: #FFFFFF;
+--section-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    }
+
+    ul { list-style: none;
+    }
+    
+    .logo-acsent {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,19;
+        letter-spacing: 0.03em;
+        color: var(--acsent-color);
+    }
+     
+     .logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1,19;
+        letter-spacing: 0.03em;
+        color: #000000; 
+        text-decoration: none;
+    }
+
+
+/* main color of the text #212121 */
+/* color of p element #757575 */ 
+/* hero title color #FFFFFF*/
+/* hero title background: #2F303A */
+/* blue words #2196F3 */
+/* Заказать услугу */
+/* цвет секции серая #F5F4FA */
+
+/* Header */
+/* Site nav */
+
+.site-nav:focus {
+    color: var(--title-text-color);
+    cursor: pointer; 
+    text-decoration: none;
+}
+.nav-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.contact-link {
+    color: var(--acsent-color); 
+    text-decoration: none;
+}
+
+.phone-info a { 
+    color: #212121;}
+
+    /* section 1 title */
+
+   .first-section {
+    background-color: var(--section-color)
+    }
+
+   .hero-title {
+    font-weight: 900;
+    line-height: 1.3;
+    color: var(--white-color);}
+   
+
+   /* section 2 */
+.title-about { 
+    visibility: hidden
+}
+.second-section-title {
+font-style: normal;
+font-weight: 700;
+line-height: 0.87;
+color: var(--title-text-color);
+   }
+
+.text-second-section {
+font-weight: 400;
+line-height: 0.58;
+color: var(--primary-text-color);
+  }
+  /* third section */
+  
+
+.third-section-title {
+font-weight: 700;
+line-height: 0.85;
+color: var(--title-text-color);
+  }
+
+  /* fourth section */
+.our-team {
+    background-color: #f5f4fa;
+}
+.fourth-section-title { 
+    font-weight: 700;
+    line-height: 0.85;
+    color: var(--title-text-color);
+}
+
+.our-team-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+line-height: 0.84;
+color:var(--title-text-color);
+}
+.profession-title~p
+{  
+    font-weight: 500;
+    line-height: 0.84;
+    color: var(--primary-text-color);
+}
+.our-team-profession {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.84;
+}
+
+
+/* button */
+
+.button {
+    width: 200px; height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px;
+    background-color: var(--acsent-color);
+    color: var(--white-color);
+    cursor: pointer;
+    line-height: 0.53;
+}
+/* Footer */
+.footer-menu {
+    background-color: #2f303a;
+}
+.footer-adress { 
+color: var(--white-color);
+font-style: normal;
+font-weight: 400;
+line-height: 0.58;
+cursor: pointer;
+text-decoration: none;
+}
+.footer-adress-contact {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+line-height: 0.58em;
+cursor: pointer;
+text-decoration: none;
+}
+.footer-adress-contact:hover:focus >li {
+    color: var(--white-color)
+}
+
+/* Second page */
+.button.primary { 
+        background-color: var(--acsent-color);
+        color: var(--white-color);
+        width: 73px; height: 38px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: 1px;
+        background-color: var(--acsent-color);
+        color: var(--white-color);
+        cursor: pointer;
+        line-height: 0.61;
+    }
+.title-second-page {
+font-style: normal;
+font-weight: 700;
+line-height: 0.5;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.second-menu~p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.53;
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+}
